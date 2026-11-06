@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+                <title>Contact</title>
+                <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="top">
+        <header>
+            <h1>Contact Me</h1>
+
+        <nav role="navigation">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+        </header>
+        <main>
+
+
+            <form action="mailinglist.php" method="POST" onsubmit="return validateForm()">
+                <label>Name:
+                <input type="text" name="name" id="name"> 
+                </label>
+<br><br> 
+ 
+                <label>Email:
+                <input type="email" name="email" id="email" >
+                </label>
+<br> <br> 
+
+                <label>Message:
+                <textarea name="message" rows="6" cols="64"></textarea>
+                </label>
+<br> <br> 
+                <input type="Submit" value="Send">
+
+
+            </form>
+
+            <p>
+                You can contact me via email :
+                <a href="mailto:lensewar2004@gmail.com">Send me an email</a>
+            </p>
+
+        </main>
+        <footer>
+             <a href="#top">Back to Top</a>
+        </footer>
+        
+<script src="scripts.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,125 @@
+body{
+    background-color: #F5F8F3;
+    color: #294A3B;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #527565;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+nav{
+    background-color: #E6EFE7;
+    padding: 1rem;
+}
+nav a{
+    color: #294A3B;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    border: 1px solid #B4C8B6;
+    background-color: white;
+}
+a{
+    color:darkgreen;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px gray;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+ul{
+list-style-type: circle;
+list-style-position: outside;
+}
+ol{
+list-style-type:  upper-roman;
+ list-style-position: outside;
+
+}
+dl{
+        margin-left: 1rem;
+
+}
+.strength{
+    font-weight: bold;
+    color: #527565;
+}
+#aboutMe{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #B4C8B6;
+    color: #527565;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+blockquote {
+    font-style: italic;
+    text-align: center;
+    color: #527565;
+    border-left: 4px solid #527565;
+    padding: 1rem;
+}
+.skill-title{
+    background-color:#E6EFE7;
+    padding: 0.9rem;
+    border-left:3px solid #527565;
+    color:#294A3B;
+}
+.experience-title{
+    background-color:#E6EFE7;
+    padding: 0.9rem;
+    border-left:3px solid #527565;
+    color:#294A3B;
+}
+.education-card {
+    background-color: #E6EFE7;
+    border: 1px solid #B4C8B6;
+    padding: 1.5rem;
+    text-align: center;
+}
+.education-card p {
+    text-align: center;
+}
+#degreeTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#universityName {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.projectCard {
+    background-color: white;
+    border: 1px solid #B4C8B6;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 55rem;
+margin-left: auto;
+margin-right: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;}
+
+.projectCard img {
+    width: 18rem;
+    max-width: 100%;
+    height: auto;
+}
